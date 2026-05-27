@@ -5,6 +5,7 @@ class CarryForward{
         System.out.println("Carry forward technique");
     }
 
+//Count "AG" pairs in given string
     private int countAGPairs(String A){
         int N = A.length();
         int pairs = 0;
