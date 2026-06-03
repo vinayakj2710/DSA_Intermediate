@@ -1,5 +1,6 @@
 public class rangedSum{
 
+    // Range sum Query
     public static int[] rangedSum(int[] A, int[][] B){
         int N = A.length;
         int M = B.length;
@@ -24,7 +25,7 @@ public class rangedSum{
         return ans;
     }
 
-    //------------- Even Indexed element sum
+    //--- Even Indexed element sum
 
     public static int[] evenSum(int[] A, int[][] B){
         int N = A.length;
@@ -54,7 +55,7 @@ public class rangedSum{
         return ans;
     }
 
-    //------------- Odd Indexed element sum
+    //---- Odd Indexed element sum
 
     public static int[] oddSum(int[] A, int[][] B){
         int N = A.length;
