@@ -5,6 +5,7 @@ public class EquiIndex{
         System.out.println(equiIndex(A));
     }
 
+    // Equilibrium index
     public static int equiIndex(int[] A){
         int N = A.length;
         int[] psum = new int[N];

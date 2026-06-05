@@ -1,4 +1,5 @@
 public class bitManipulation {
+    // Binary to decimal logic
     public static int binaryToDecimal (int N) {
         int dec = 0;
         int power = 1;
@@ -11,6 +12,7 @@ public class bitManipulation {
         return dec;
     }
 
+    // Decimal to Binary logic
     public static int decimalToBinary (int N) {
         int bin = 0;
         int power = 1;
