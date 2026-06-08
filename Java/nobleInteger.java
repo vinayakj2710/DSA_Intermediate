@@ -2,6 +2,9 @@ import java.util.Arrays;
 
 public class nobleInteger{
 
+    /*A Noble Integer is an integer in an array such that the 
+    number of elements greater than it is equal to the value of the integer itself.*/
+
     public static int nobleInDistinct(int[] A) {
         int N = A.length;
         Arrays.sort(A);

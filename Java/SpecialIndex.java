@@ -1,4 +1,6 @@
 public class SpecialIndex {
+    /* A Special Index is an index in an array such that after removing the element at that index,
+     the sum of elements at even positions becomes equal to the sum of elements at odd positions. */
     public static void main(String args[]){
         int[] A = {4,3,2,7,6,-2};
         System.out.println(SpecialIndex(A));
